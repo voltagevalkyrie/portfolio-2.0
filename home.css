@@ -1,0 +1,179 @@
+body {
+    background-color: #000;
+    font-family: Arial;
+  }
+
+.hero-banner {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .hero-banner-title {
+    color: #fff;
+    font-size: 176px;
+    font-weight: 700;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .hero-banner__stroked-title {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    /
+  }
+  
+  .hero-banner__image {
+    border-radius: 20px;
+    position: fixed;
+    transform: rotate(-18deg);
+    width: 600px;
+  
+  }
+
+
+  .content {
+
+    font-size: 40px;
+    padding: 120px 80px;
+    height: 100vh; 
+    
+    
+  }
+     
+  /* creative designer and developer */
+
+
+h2{
+    color:white;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+opacity: 1;
+text-align: center;
+
+}
+
+h2{
+    margin:0;
+    padding:0;
+    font-size:120px;
+    text-transform:uppercase;
+    position:relative;
+    color:#ccc;
+  }
+  h2:before{
+    content:"creative designer & developer";
+    position:absolute;
+    color:#262626;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.1s;
+  }
+  h2:hover:before{
+    width:100%;
+  }
+
+  * {
+    box-sizing: border-box
+  }
+/* creative designer and developer ends here */
+
+
+
+
+
+
+
+  /* navbar starts */
+
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top:5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+
+  
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: grey;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+/* navbar ends */

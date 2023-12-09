@@ -1,0 +1,446 @@
+
+
+
+body {
+
+  background-image: url(bg.jpg);
+  background-blend-mode:color-burn;
+  background-size: 100%;
+  width:100%;
+  height:auto;
+}
+
+/* starts here */
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  padding-left:179px ;
+  color:grey;
+  align-items: center;
+  text-align: center;
+} 
+
+h1 {
+  font-weight: 700;
+  padding-top: 110px;
+  text-align: center;
+  font-size: 55px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 12s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+
+
+
+/* ends here */
+
+
+
+
+
+
+
+
+
+
+
+/* avatar image  */
+
+
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  opacity:90%;
+}
+
+
+
+/* avatar image ends here  */
+
+
+
+
+/* about title banner  */
+.about-banner-title h1 {
+  font-size: 120px;
+  color:white;
+}
+
+
+
+  /* navbar starts */
+
+/*
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top:5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+
+  
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: grey;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: grey;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+} */
+
+
+/* navbar ends */
+
+
+
+
+ 
+
+
+
+
+
+
+
+/* all the para's  */
+
+.digital-odyssey {
+   color:white;
+   text-align: center;
+   font-size: 45px;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.university{
+  color:white;
+  padding-top:50px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.experience{
+  color:white;
+  
+  padding-top:50px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sentence{
+  color:white;
+}
+
+.skills{
+  color:white;
+  padding-top:50px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+
+/* here is  the adventure part okay */
+
+
+h3 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 39px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 18s linear infinite;
+  position: relative;
+}
+
+
+
+
+/* skills start here */
+
+
+body {
+  display: grid;
+  height: 100%;
+  align-items: center;
+}
+/* 
+::selection {
+  color:white;
+  background: grey;
+} */
+
+.skill-bars {
+  padding: 25px 30px;
+  width: 600px;
+  padding-left: 330px;
+}
+
+.skill-bars .bar {
+  margin: 20px 0;
+}
+
+.skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+
+.skill-bars .bar .info {
+  margin-bottom: 5px;
+  color:white;
+}
+
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-bars .bar .progress-line {
+  height: 20px;
+  width: 600px;
+  background: black;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+    0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+ 
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: grey;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line.html span {
+  width: 90%;
+}
+
+.bar .progress-line.css span {
+  width: 80%;
+}
+
+.bar .progress-line.js span {
+  width: 65%;
+}
+
+.bar .progress-line.python span {
+  width: 50%;
+}
+
+.bar .progress-line.next span {
+  width: 55%;
+}
+
+.progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.progress-line.html span::after {
+  content: "90%";
+}
+
+.progress-line.css span::after {
+  content: "80%";
+}
+
+.progress-line.js span::after {
+  content: "65%";
+}
+
+.progress-line.python span::after {
+  content: "50%";
+}
+
+.progress-line.next span::after {
+  content: "55%";
+}
+
+
+/* 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a img.icon {
+  display: inline-block;
+  width: 1.2em;
+  margin-left: .6rem;
+} */
+
+
+
+/* skills end  here  */
