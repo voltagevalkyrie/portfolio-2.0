@@ -32,7 +32,7 @@ Check out the live demo of my portfolio: voltagevalkyrie
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone [https://github.com/voltagevalkyrie/my-portfolio.git]
+1. Clone the repository: `git clone [https://github.com/voltagevalkyrie/portfolio-2.0.git]
 2. Open the project folder: `cd [portfolio2.0]`
 3. Open `index.html` in your web browser.
 
